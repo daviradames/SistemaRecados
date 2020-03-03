@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <!--
+    public long RecadoID { get; set; }
+    public string Mensagem { get; set; }
+    public DateTime DataHora { get; set; }
+    public string Autor { get; set; }
+    public string Destinatario { get; set; }
+    -->
+
+        <form id="frmNovo" action="NovoRecado" method="post">
+            <label for="Mensagem">Mensagem</label>
+            <input name="Mensagem" type="text" value="" />
+            <br />
+            <label for="Autor">Autor</label>
+            <input name="Autor" type="text" value="" />
+            <br />
+            <label for="Destinatario">Destinatario</label>
+            <input name="Destinatario" type="text" value="" />
+            <br />
+            <input type="submit" value="Salvar" />
+        </form>
+    </div>
+</body>
+</html>
